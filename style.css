@@ -38,6 +38,53 @@ body{
     color: white;
 }
 
-.lista li{
+.lista a{
+    color: #cbdcf7;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.lista a:hover{
+    color: #fff;
+}
+
+.cabecalho {
+    border: 3px solid red;
+    background-color: #3e5c92;
     color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.cabecalho-container{
+    border: 3px solid red;
+}
+
+.cabecalho-container h1{
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.cabecalho-container h2{
+    font-weight: 300;
+    font-style: italic;
+    color: #ffd700;
+}
+
+.principal{
+    border: 3px solid red;
+    max-width: 900px;
+    margin: -40px auto 40px;
+    padding: 20px;
+}
+
+.secao{
+    border: 3px solid red;
+    background: white;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
