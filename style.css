@@ -112,3 +112,7 @@ section{
     color: rgb(5, 165, 5);
     font-weight: bold;
 }
+
+img{
+    border-radius: 12px;
+}
