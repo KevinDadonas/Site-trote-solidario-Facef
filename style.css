@@ -299,3 +299,24 @@ tr:hover{
     border-radius: 8px;
     border: 1px solid #dee2e6;
 }
+
+#caixa-formato .caixa-importante{
+    background-color: #d4e3ff;
+    border-radius: 8px;
+    border-left: #1e3c72;
+    border-left-width: 5px;
+    border-left-style: solid;
+    padding: 15px;
+    color: black;
+    font-family: Arial, Helvetica;
+    font-weight: 100;
+}
+
+#homenagem-facef .texto-destacado strong{
+    color: rgb(114, 94, 4);
+}
+
+#homenagem-facef td{
+    padding: 2px;
+    padding-left: 15px;
+}
